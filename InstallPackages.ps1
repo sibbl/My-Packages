@@ -1,0 +1,1 @@
+Get-Content packages.txt | foreach {Install-Package -name $_}
